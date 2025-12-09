@@ -1,1 +1,15 @@
-@import "tailwindcss";
+@import "tailwindcss" layer(tailwind) important;
+
+@theme {
+  --color-gold-50: #fefdf8;
+  --color-gold-100: #fdf9e8;
+  --color-gold-200: #fbf1c4;
+  --color-gold-300: #f7e596;
+  --color-gold-400: #f1d56f;
+  --color-gold-500: #edd288;
+  --color-gold-600: #d9a854;
+  --color-gold-700: #b8853e;
+  --color-gold-800: #956935;
+  --color-gold-900: #7a572f;
+  --color-gold-950: #462f16;
+}
