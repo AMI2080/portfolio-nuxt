@@ -1,0 +1,108 @@
+import {
+  TsIcon,
+  JsIcon,
+  HtmlIcon,
+  CssIcon,
+  SassIcon,
+  AngularIcon,
+  VueIcon,
+  NuxtIcon,
+  TailwindIcon,
+  MaterialUiIcon,
+  VuetifyIcon,
+  JQueryIcon,
+  BootstrapIcon,
+  RxjsIcon,
+  PiniaIcon,
+  VuexIcon,
+  WebSocketIcon,
+  SipIcon,
+  ApiIcon,
+  GitIcon,
+  GithubIcon,
+  BitbucketIcon,
+  AzureIcon,
+  PhpIcon,
+  LaravelIcon,
+  MysqlIcon,
+  EloquentOrmIcom,
+  NgrxIcon,
+  PrimeVueIcon,
+  NpmIcon,
+} from "@/components/icons";
+
+export const technicalStack: StackGroup[] = [
+  {
+    title: "Modern frameworks",
+    class: "lg:col-span-3",
+    items: [
+      { name: "Angular", icon: AngularIcon },
+      { name: "Vue", icon: VueIcon },
+      { name: "Nuxt", icon: NuxtIcon },
+    ],
+  },
+  {
+    title: "Core frontend",
+    class: "lg:col-span-5",
+    items: [
+      { name: "TypeScript", icon: TsIcon },
+      { name: "JavaScript", icon: JsIcon },
+      { name: "HTML5", icon: HtmlIcon },
+      { name: "CSS3", icon: CssIcon },
+      { name: "SASS / SCSS", icon: SassIcon },
+    ],
+  },
+
+  {
+    title: "UI libraries & styling",
+    class: "lg:col-span-8",
+    items: [
+      { name: "Tailwind CSS", icon: TailwindIcon },
+      { name: "Material UI", icon: MaterialUiIcon },
+      { name: "Vuetify", icon: VuetifyIcon },
+      { name: "Primevue", icon: PrimeVueIcon },
+      { name: "JQuery", icon: JQueryIcon },
+      { name: "Bootstrap", icon: BootstrapIcon },
+    ],
+  },
+  {
+    title: "State management",
+    class: "lg:col-span-4",
+    items: [
+      { name: "RxJS", icon: RxjsIcon },
+      { name: "NgRx", icon: NgrxIcon },
+      { name: "Pinia", icon: PiniaIcon },
+      { name: "Vuex", icon: VuexIcon },
+    ],
+  },
+  {
+    title: "Backend ecosystem",
+    class: "lg:col-span-4",
+    items: [
+      { name: "PHP", icon: PhpIcon },
+      { name: "Laravel", icon: LaravelIcon },
+      { name: "MySQL", icon: MysqlIcon },
+      { name: "Eloquent ORM", icon: EloquentOrmIcom },
+    ],
+  },
+  {
+    title: "Connectivity",
+    class: "lg:col-span-3",
+    items: [
+      { name: "Web Socket", icon: WebSocketIcon },
+      { name: "SIP.js", icon: SipIcon },
+      { name: "REST APIs", icon: ApiIcon },
+    ],
+  },
+  {
+    title: "Tools & DevOps",
+    class: "lg:col-span-5",
+    items: [
+      { name: "Npm", icon: NpmIcon },
+      { name: "Git", icon: GitIcon },
+      { name: "GitHub", icon: GithubIcon },
+      { name: "Bitbucket", icon: BitbucketIcon },
+      { name: "Azure", icon: AzureIcon },
+    ],
+  },
+];
